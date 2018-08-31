@@ -29,7 +29,7 @@ public class providerHome extends HttpServlet{
 		
 		session=request.getSession(false);
 		if(session.equals(null)) {
-			response.sendRedirect("lauch.html");;return;
+			response.sendRedirect("launch.html");;return;
 		}
 		
 		
