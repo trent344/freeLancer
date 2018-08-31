@@ -1,0 +1,15 @@
+# database
+
+All database and tables info of #freeLancer
+
+#freeLancer:Databases{
+ 1. providers
+ 2. seeker
+ 3. common
+}
+
+providers:Tables{           |         seeker:Tables{            |        common:Tables{
+  1. log                    |           4. log                  |          6. base
+  2. prodetails             |           5. sworks               |          7. prov
+  3. propers                |         }                         |        }
+}                           |                                   |        
