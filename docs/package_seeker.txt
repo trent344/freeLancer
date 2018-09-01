@@ -11,5 +11,9 @@ seekerHome.java {
   seeker-Home page ;
   shows seeker contact-info and deployed-workbases-info ; 
 }
+seekerLogout.java {
+  terminate seeker-active session and logout from #freeLancer ;
+  redirects to launch page of #freeLancer ; 
+}
 
 will be updating..
