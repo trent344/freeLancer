@@ -2,4 +2,14 @@
 
 seeker.html :) A page to input data for being logged-in or signed-up as seeker ;
 
+seekerServlet.java {
+  it ensures the provided input data by seeker is right ;
+  it lets seeker be logged-in or signed-up according to the request ;
+  redirects to seeker-Home page ;
+}
+seekerHome.java {
+  seeker-Home page ;
+  shows seeker contact-info and deployed-workbases-info ; 
+}
+
 will be updating..
