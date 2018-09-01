@@ -20,5 +20,9 @@ ploginServlet.java {
   page displaying for contact update of provider with previous contact info. as pre-written value ;
   update_type = 2 ;
  }
+ providerUpdateS.java {
+  page displaying for skills and name update of provider with same previous info. as pre-written value ;
+  update_type = 1 ;
+ }
  
  will be updating...
