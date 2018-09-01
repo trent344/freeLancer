@@ -24,5 +24,10 @@ ploginServlet.java {
   page displaying for skills and name update of provider with same previous info. as pre-written value ;
   update_type = 1 ;
  }
+ finishUpdate.java {
+  finishing-update of provider info. of update_type = 1 || 2 ;
+  updating databases of providers ; 
+  at last redirects to provider-Home page ;
+ }
  
  will be updating...
