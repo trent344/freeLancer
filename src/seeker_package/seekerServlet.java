@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 public class seekerServlet extends HttpServlet{
 	
 	PrintWriter out;
-	workBase base;
+	seekers base;
 	
 	public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException {
 		response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
@@ -33,7 +33,7 @@ public class seekerServlet extends HttpServlet{
 		
 		key=request.getParameter("key");
 		
-		base=new workBase();
+		base=new seekers();
 		
 		if(i==0) {//login
 			
