@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class seekers extends dataConnection{
 	
 	seekers(){
-		connect("seeker");
+		connect("seekers");
 	}
 	
 	//inserting  new information in prolog table of database 
