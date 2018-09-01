@@ -25,7 +25,7 @@ public class providerUpdates extends HttpServlet{
 		
 		session=request.getSession(false);
 		if(session.equals(null)) {
-			response.sendRedirect("index.html");return;
+			response.sendRedirect("launch.html");return;
 		}
 		
 		out=response.getWriter();
