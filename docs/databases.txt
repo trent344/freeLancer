@@ -3,13 +3,35 @@
 All database and tables info of #freeLancer
 
 #freeLancer:Databases{
- 1. providers
- 2. seeker
- 3. common
+ -> providers
+ -> seeker
+ -> common
 }
 
-providers:Tables{           |         seeker:Tables{            |        common:Tables{
+providers:Tables{           |         seekers:Tables{           |        common:Tables{
   1. log                    |           4. log                  |          6. base
   2. prodetails             |           5. sworks               |          7. prov
   3. propers                |         }                         |        }
 }                           |                                   |        
+
+
+1. log :) values ( id int , uname varchar(30), pass varchar(30) ) {
+                id = an integer associated to a specific provider (id is a provider session-attribute); 
+                     id will be same wherever provider-id is referred in any database  ;
+                uname = username of provider or say uid (uid is a provider session-attribute);
+                pass = password set by provider ;
+          }
+          
+2. prodetails :) values (id int, pname varchar(50) , tags text ) {
+                       id = provider-id ;
+                       pname = provider real name ;
+                       tags = skills separated by ',' of provider ;
+                }
+      
+3. propers :) values (id int, )
+
+
+
+
+
+will be updating..
