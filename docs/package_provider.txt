@@ -33,5 +33,9 @@ ploginServlet.java {
   provider-logout servlet ;
   redirects to launch page of #freeLancer
  }
+ providerWorkbase.java {
+  works :) a session attribute contains wid (id associated to deployed-workbases) -s separated by "," which are personalized by provider ;
+  show all personalized workbases and option to remove them ;
+ }
  
  will be updating...
