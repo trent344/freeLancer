@@ -20,5 +20,9 @@ seekerWorkbase.java {
   displays all-deployed-workbases by seeker ;
   link to inspect progress of a workbase alongwith providers-info and link to edit ;
 }
+deployWorkbase.java {
+  a new workbase is deployed and get stored into seeker database ;
+  updated common database as well ;
+}
 
 will be updating..
