@@ -3,9 +3,12 @@
 pro_login.html :) login page of service provider
 pro_create.html :) profile creation page of service provider
 
-
+dataConnection.java {
+  contains many powerful methods to join and provide an easy way to communicate to databases ;
+}
 providers.java {
-  establish connection between java-servlet code to providers database ;
+  extends to dataConnection
+  establish connection between java-servlet code to "providers" database ;
   acts as mid-way and makes easy-writing java code ; 
 }
 ploginServlet.java {
