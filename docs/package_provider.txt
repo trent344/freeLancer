@@ -3,6 +3,11 @@
 pro_login.html :) login page of service provider
 pro_create.html :) profile creation page of service provider
 
+
+providers.java {
+  establish connection between java-servlet code to providers database ;
+  acts as mid-way and makes easy-writing java code ; 
+}
 ploginServlet.java {
   provider login input data checking and redirecting to provider home page ;
   isValid() method returns the id associated with that input data (or say user) || 0,-1,-2 according to errors shown ;
@@ -53,5 +58,6 @@ ploginServlet.java {
  proframe.java {
   a html-frame which must be called every time to show provider-data within ;
  }
+
  
  will be updating...
