@@ -16,5 +16,9 @@ ploginServlet.java {
   extracting data from databases with the help of user-ID and displayng them inside a provider-frame ;
   can goto update contact or skills and name from here ;
  }
+ providerUpdateC.java {
+  page displaying for contact update of provider with previous contact info. as pre-written value ;
+  update_type = 2 ;
+ }
  
  will be updating...
