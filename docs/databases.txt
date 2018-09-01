@@ -4,7 +4,7 @@ All database and tables info of #freeLancer
 
 #freeLancer:Databases{
  -> providers
- -> seeker
+ -> seekers
  -> common
 }
 
