@@ -10,10 +10,15 @@ seekerServlet.java {
 seekerHome.java {
   seeker-Home page ;
   shows seeker contact-info and deployed-workbases-info ; 
+  ids :) a seeker-session attribute consists of all-deployed-workbases by seeker separated by "," ;
 }
 seekerLogout.java {
   terminate seeker-active session and logout from #freeLancer ;
   redirects to launch page of #freeLancer ; 
+}
+seekerWorkbase.java {
+  displays all-deployed-workbases by seeker ;
+  link to inspect progress of a workbase alongwith providers-info and link to edit ;
 }
 
 will be updating..
