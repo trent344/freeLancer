@@ -1,4 +1,4 @@
-package freeLancer;
+package provider;
 
 import java.io.IOException;
 import java.io.PrintWriter;
