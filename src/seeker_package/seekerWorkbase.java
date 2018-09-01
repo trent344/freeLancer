@@ -32,7 +32,7 @@ public class seekerWorkbase extends HttpServlet{
 		String w[]=((String)session.getAttribute("ids")).split(",");
 		int wid;
 		ResultSet set=null;
-		workBase base=new workBase();
+		seekers base=new seekers();
 		sFrame.startFrame(1);
 		for(String work : w) {
 			if((!work.equals(null)) && (!work.equals("0"))) {
@@ -58,6 +58,7 @@ public class seekerWorkbase extends HttpServlet{
 				
 			}
 		}
+		base.disconnect();
 		sFrame.endFrame();
 		
 	}
