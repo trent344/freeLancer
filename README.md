@@ -1,10 +1,10 @@
 # freeLancer
 A website for freelancing using java
 
-This project is just a prctice phase of a student...
+This project is just a practice phase of a student...
 
 
-expecting features of the website :)
+expected features of the website :)
 
 visitor's point of view :)
 1. they can see the list of providers and current active workbases
@@ -12,8 +12,8 @@ visitor's point of view :)
 3. can make a donation to freeLancer
 
 service provider's point of view :)
-1. creation and management of profile a provider (service provider)
-2. providers can look at the added workbases and they will be able to import that workbase to their personal workbase and start working on the same (related with 2. of seeker's)
+1. (done) creation and management of profile a provider (service provider) 
+2. (done) providers can look at the added workbases and they will be able to import that workbase to their personal workbase and start working on the same (related with 2. of seeker's)
 3. providers can also form a group to work on same workbase
 4. providers can chat within the group and also with the seeker of the same workbase that of the group
 5. providers can also make progress tags (more like commit here in github with a description) while working on a workbase
@@ -22,13 +22,13 @@ service provider's point of view :)
 8. can make a donation to freeLancer
 
 service seeker's point of view :)
-1. creation and management of profile of a sekeer (service seeker)
-2. seekers can add workbases (by providing the informations of the work they are looking for)
+1. (done) creation and management of profile of a sekeer (service seeker)
+2. (done) seekers can add workbases (by providing the informations of the work they are looking for)
 3. seekers can see the list of providers who are working on their workbase and can make annoucements and chat with a special group or a provider 
 4. seekers can hire a group or a single provider
 5. can make a donation to freeLancer
 
-preferred skills for contribution :) java, mysql, javascript, html, css, ideads of features which can be added, language:english or :conversion .
+preferred skills for contribution :) java, servlet, jdbc-mysql, javascript, html, css, ideas of features which can be added, language:english or :conversion .
 
 wanna contribute...
 you are welcome ...
