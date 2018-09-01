@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 public class seekerHome extends HttpServlet{
 	
 	PrintWriter out;
-	workBase base;
+	seekers base;
 	sframe sFrame;
 	
 	public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException {
@@ -40,7 +40,7 @@ public class seekerHome extends HttpServlet{
 		out=response.getWriter();
 		response.setContentType("text/html");
 		
-		base=new workBase(); // database which store seeker info 
+		base=new seekers(); // database which store seeker info 
 		
 		sFrame=new sframe(out);
 		sFrame.startFrame(0);
