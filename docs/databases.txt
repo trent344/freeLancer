@@ -28,10 +28,40 @@ providers:Tables{           |         seekers:Tables{           |        common:
                        tags = skills separated by ',' of provider ;
                 }
       
-3. propers :) values (id int, )
+3. propers :) values (id int, mob varchar(15), mail varchar(50) ) {
+                     id = provider-id ;
+                     mob = mobile no. of provider ;
+                     mail = email address of provider ;
+              }
+          
+4. log :) values ( id varchar(1000), mail varchar(50), pass varchar(30) ) {
+                 mail = email address of seeker ;
+                 pass = password set by seeker ;
+                 NOTE: seeker adds workbases every one of which got an unique wid (workbase-id);
+                 id = a varchar consists of wid(s) separated by ',' of workbases which are added by seeker ;
+          }
+          
+ 5. sworks :) values (id int, mail varchar(50), company varchar(200), title varchar(200), details text, tags varchar(200), payment text, deadline datetime ){
+                     id = wid, an integer associated with this workbase ;
+                     mail = email address of seeker who has deployed this workbase ;
+                     company = name of the company in whose favour this work is going to ;
+                     title = short description about the workbase ;
+                     details = full description of the workbase ;
+                     tags = skills separated by ',' required to work on this workbase ;
+                     payment = deatils of payment amount, time ;
+                     deadline = YYYY/MM/DD HH:MM:SS format of date-time of deadline ;
+              }
 
+6. base :) values ( pid int, wid varchar(1000) ) {
+                  pid = provider-id ;
+                  wid = a varchar consists of all workbase-id(s) separated by ',' which are in personalized workbase of provider ;
+          }
+          
+ 7. prov :) values ( wid int, pid varchar(1000) ) {
+                   wid = workbase-id associated with a workbase ;
+                   pid = a varchar consists of provider-id(s) separated by ',' who have this workbase in their personalized workbase ;
+            }
+            
+            
 
-
-
-
-will be updating..
+thanks....
