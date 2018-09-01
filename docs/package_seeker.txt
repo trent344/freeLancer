@@ -24,5 +24,12 @@ deployWorkbase.java {
   a new workbase is deployed and get stored into seeker database ;
   updated common database as well ;
 }
+dataConnection.java {
+  just a copy of dataConnection of providers package ;
+}
+seekers.java {
+  extends to DataConnection of same package ;
+  consists of methods useful for connecting to seekers database and make easy-way to write business-code ;
+}
 
 will be updating..
