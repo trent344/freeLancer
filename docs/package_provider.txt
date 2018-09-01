@@ -37,5 +37,10 @@ ploginServlet.java {
   works :) a session attribute contains wid (id associated to deployed-workbases) -s separated by "," which are personalized by provider ;
   show all personalized workbases and option to remove them ;
  }
+ providerRemoveWorkbase.java{
+  removing requested workbase from common database ,and remove provider-id from work-id's providers ;
+  update session-attribute works ;
+  redirects to provider-workbase ;
+ }
  
  will be updating...
