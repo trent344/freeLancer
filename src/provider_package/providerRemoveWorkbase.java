@@ -33,15 +33,24 @@ public class providerRemoveWorkbase extends HttpServlet{
 		dataConnection con=new dataConnection();
 		con.connect("common");
 		works="";
-		if(w.contains(wid+",")) {
-			String ar[]=w.split(wid+",");
+		w=","+w;
+		if(w.contains(","+wid+",")) {
+			String ar[]=w.split(","+wid+",");
 			for(String a : ar) {
 				if(!a.equals(null)) {
+					works=works.concat(",");
 					works=works.concat(a);
 				}
 			}
 		}
+		StringBuilder sb=new StringBuider(works);
 		if(works.length()<=2)works="0";
+		else {
+			while(sb.charAt(0) == ',') {
+				sb.deleteCharAt(0);
+			}
+			works=sb.toString();
+		}
 		session.setAttribute("works", works);
 		try {
 			con.makePreStatement("update base set wid = '"+works+"' where pid = "+id);
@@ -51,14 +60,22 @@ public class providerRemoveWorkbase extends HttpServlet{
 				w=set.getString(1);
 				con.closeSt();set.close();
 				works="";
-				if(w.contains(id+",")) {
-					String ar[]=w.split(id+",");
+				w=","+w;
+				if(w.contains(","+id+",")) {
+					String ar[]=w.split(","+id+",");
 					for(String a : ar) {
-						if(!a.equals(null))works=works.concat(a);
+						if(!a.equals(null))works=works.concat(","+a);
 					}
 				}
 				
 				if(works.length()<=2)works="0";
+				else {
+					sb=new StringBuilder(works);
+					while(sb.charAt(0) == ',') {
+						sb.deleteCharAt(0);
+					}
+					works=sb.toString();
+				}
 				con.makePreStatement("update prov set pid = '"+works+"' where wid = "+wId);
 			}
 			else {
