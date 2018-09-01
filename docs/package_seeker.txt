@@ -1,0 +1,5 @@
+#package seeker documentation
+
+seeker.html :) A page to input data for being logged-in or signed-up as seeker ;
+
+will be updating..
