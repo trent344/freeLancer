@@ -1,6 +1,7 @@
 #package seeker documentation
 
 seeker.html :) A page to input data for being logged-in or signed-up as seeker ;
+seeker_add_workbase.html :) page for taking input info. for deploying new workbase by seeker ;
 
 seekerServlet.java {
   it ensures the provided input data by seeker is right ;
@@ -30,6 +31,9 @@ dataConnection.java {
 seekers.java {
   extends to DataConnection of same package ;
   consists of methods useful for connecting to seekers database and make easy-way to write business-code ;
+}
+sframe.java {
+  a html-frame built for seeker to display seeker's data within ;
 }
 
 will be updating..
