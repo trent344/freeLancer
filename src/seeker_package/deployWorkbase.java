@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 public class deployWorkbase extends HttpServlet{
 	
 	HttpSession session;
-	workBase base;
+	seekers base;
 	PrintWriter out;
 	sframe sFrame;
 	
@@ -40,7 +40,7 @@ public class deployWorkbase extends HttpServlet{
 		
 		mail=(String) session.getAttribute("mail");
 		
-		base=new workBase();
+		base=new seekers();
 		company.replaceAll("'", "\'");
 		title.replaceAll("'", "\'");
 		tags.replaceAll("'", "\'");
