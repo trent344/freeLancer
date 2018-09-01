@@ -29,5 +29,9 @@ ploginServlet.java {
   updating databases of providers ; 
   at last redirects to provider-Home page ;
  }
+ providerLogout.java {
+  provider-logout servlet ;
+  redirects to launch page of #freeLancer
+ }
  
  will be updating...
