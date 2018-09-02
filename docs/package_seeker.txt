@@ -25,6 +25,9 @@ deployWorkbase.java {
   a new workbase is deployed and get stored into seeker database ;
   updated common database as well ;
 }
+workbaseProgress.java {
+  seeker will inspecting the providers who are working on their project as well as they will be able to see progress tags ;
+}
 seekers.java {
   extends to DataConnection of provider package ;
   consists of methods useful for connecting to seekers database and make easy-way to write business-code ;
