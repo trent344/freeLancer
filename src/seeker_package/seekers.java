@@ -2,6 +2,7 @@ package seeker;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import provider.dataConnection;
 
 public class seekers extends dataConnection{
 	
