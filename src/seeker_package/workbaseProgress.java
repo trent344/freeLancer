@@ -24,6 +24,7 @@ public class workbaseProgress extends HttpServlet {
 			response.sendRedirect("index.html");return;
 		}
 		
+		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		sframe sFrame=new sframe(out);
 		sFrame.startFrame(0);
