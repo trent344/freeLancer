@@ -24,9 +24,10 @@ service provider's point of view :)
 service seeker's point of view :)
 1. (done) creation and management of profile of a sekeer (service seeker)
 2. (done) seekers can add workbases (by providing the informations of the work they are looking for)
-3. seekers can see the list of providers who are working on their workbase and can make annoucements and chat with a special group or a provider 
-4. seekers can hire a group or a single provider
-5. can make a donation to freeLancer
+3. (done) seekers can see the list of providers who are working on their workbase 
+4. and can make annoucements and chat with a special group or a provider 
+5. seekers can hire a group or a single provider
+6. can make a donation to freeLancer
 
 preferred skills for contribution :) java, servlet, jdbc-mysql, javascript, html, css, ideas of features which can be added, language:english or :conversion .
 
